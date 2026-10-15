@@ -1,6 +1,6 @@
 capital = 557
 2000.1.1 = {
-	set_variable = { currency_strength = 0.55 }
+	set_variable = { currency_strength = 0.67 }
 	set_cosmetic_tag = IRQ_AUTH_nationalist
 	set_variable = { dynamic_flag_variant = 8 }
 	set_country_flag = is_IRAQ
@@ -491,12 +491,22 @@ capital = 557
 	recruit_character = IRQ_hamid_raja_shalah
 	recruit_character = IRQ_mehnaz_bezazi
 	recruit_character = IRQ_mahmoud_atai
+	recruit_character = IRQ_ibrahim_abd_al_sattar
+	recruit_character = IRQ_saif_al_din_al_rawi
+	recruit_character = IRQ_kamal_mustafa
+	recruit_character = IRQ_raad_al_hamdani
+	recruit_character = IRQ_muzahim_sab_hassan_al_tikriti
+	recruit_character = IRQ_khaldun_khattab_bakr_al_tikriti
+	recruit_character = IRQ_kheir_allah_wahees_omar_al_nassiri
+	recruit_character = IRQ_mizban_khadr_hadi
+	recruit_character = IRQ_salah_aboud_mahmoud
+	recruit_character = IRQ_abid_mohammed_al_kabi
+	recruit_character = IRQ_abud_qanbar
 	# 2017 Generals (Hidden)
 	recruit_character = IRQ_othman_ghanimi
 	recruit_character = IRQ_babaker_zebari
 	recruit_character = IRQ_fadhil_barwari
 	recruit_character = IRQ_nazal_qassim
-	recruit_character = IRQ_abud_qanbar
 	recruit_character = IRQ_othman_farhood
 	recruit_character = IRQ_najah_al_shammari
 	# Shi'ite Militia Generals

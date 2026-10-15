@@ -1,0 +1,120 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "ibrahim_abd_al_sattar"
+		texturefile = "gfx/leaders/IRQ/ibrahim_abd_al_sattar.dds"
+	}
+
+	spriteType = {
+		name = "ibrahim_abd_al_sattar_small"
+		texturefile = "gfx/leaders/IRQ/small/ibrahim_abd_al_sattar_small.dds"
+	}
+
+
+	spriteType = {
+		name = "saif_al_din_al_rawi"
+		texturefile = "gfx/leaders/IRQ/saif_al_din_al_rawi.dds"
+	}
+
+	spriteType = {
+		name = "saif_al_din_al_rawi_small"
+		texturefile = "gfx/leaders/IRQ/small/saif_al_din_al_rawi_small.dds"
+	}
+
+
+	spriteType = {
+		name = "kamal_mustafa"
+		texturefile = "gfx/leaders/IRQ/kamal_mustafa.dds"
+	}
+
+	spriteType = {
+		name = "kamal_mustafa_small"
+		texturefile = "gfx/leaders/IRQ/small/kamal_mustafa_small.dds"
+	}
+
+
+	spriteType = {
+		name = "raad_al_hamdani"
+		texturefile = "gfx/leaders/IRQ/raad_al_hamdani.dds"
+	}
+
+	spriteType = {
+		name = "raad_al_hamdani_small"
+		texturefile = "gfx/leaders/IRQ/small/raad_al_hamdani_small.dds"
+	}
+		spriteType = {
+		name = "muzahim_sab_hassan_al_tikriti"
+		texturefile = "gfx/leaders/IRQ/muzahim_sab_hassan_al_tikriti.dds"
+	}
+
+	spriteType = {
+		name = "muzahim_sab_hassan_al_tikriti_small"
+		texturefile = "gfx/leaders/IRQ/small/muzahim_sab_hassan_al_tikriti_small.dds"
+	}
+
+
+	spriteType = {
+		name = "khaldun_khattab_bakr_al_tikriti"
+		texturefile = "gfx/leaders/IRQ/khaldun_khattab_bakr_al_tikriti.dds"
+	}
+
+	spriteType = {
+		name = "khaldun_khattab_bakr_al_tikriti_small"
+		texturefile = "gfx/leaders/IRQ/small/khaldun_khattab_bakr_al_tikriti_small.dds"
+	}
+
+
+	spriteType = {
+		name = "kheir_allah_wahees_omar_al_nassiri"
+		texturefile = "gfx/leaders/IRQ/kheir_allah_wahees_omar_al_nassiri.dds"
+	}
+
+	spriteType = {
+		name = "kheir_allah_wahees_omar_al_nassiri_small"
+		texturefile = "gfx/leaders/IRQ/small/kheir_allah_wahees_omar_al_nassiri_small.dds"
+	}
+
+
+	spriteType = {
+		name = "mizban_khadr_hadi"
+		texturefile = "gfx/leaders/IRQ/mizban_khadr_hadi.dds"
+	}
+
+	spriteType = {
+		name = "mizban_khadr_hadi_small"
+		texturefile = "gfx/leaders/IRQ/small/mizban_khadr_hadi_small.dds"
+	}
+
+
+	spriteType = {
+		name = "salah_aboud_mahmoud"
+		texturefile = "gfx/leaders/IRQ/salah_aboud_mahmoud.dds"
+	}
+
+	spriteType = {
+		name = "salah_aboud_mahmoud_small"
+		texturefile = "gfx/leaders/IRQ/small/salah_aboud_mahmoud_small.dds"
+	}
+
+
+	spriteType = {
+		name = "abid_mohammed_al_kabi"
+		texturefile = "gfx/leaders/IRQ/abid_mohammed_al_kabi.dds"
+	}
+
+	spriteType = {
+		name = "abid_mohammed_al_kabi_small"
+		texturefile = "gfx/leaders/IRQ/small/abid_mohammed_al_kabi_small.dds"
+	}
+
+
+	spriteType = {
+		name = "abboud_qanbar"
+		texturefile = "gfx/leaders/IRQ/abboud_qanbar.dds"
+	}
+
+	spriteType = {
+		name = "abboud_qanbar_small"
+		texturefile = "gfx/leaders/IRQ/small/abboud_qanbar_small.dds"
+	}
+}

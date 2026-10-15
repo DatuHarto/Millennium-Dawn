@@ -313,40 +313,6 @@ characters = {
 			}
 		}
 	}
-	IRQ_abud_qanbar = {
-		name = "Abud Qanbar"
-		portraits = {
-			army = {
-				small = "gfx/leaders/IRQ/small/Portrait_Abud_Qanbar_small.dds"
-				large = "gfx/leaders/IRQ/Portrait_Abud_Qanbar.dds"
-			}
-		}
-		corps_commander = {
-			traits = { trait_engineer }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-			visible = {
-				has_country_flag = IRQ_Nut_sacks
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = abud_qanbar
-			visible = {
-				has_country_flag = IRQ_Nut_sacks
-			}
-			traits = {
-				army_entrenchment_1
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
 	IRQ_othman_farhood = {
 		name = "Othman Ali Farhood"
 		portraits = {
@@ -538,6 +504,355 @@ characters = {
 					has_country_flag = irq_scientist_flag
 				}
 			}
+		}
+	}
+
+##NewCharacters - HartoEdits	
+
+	IRQ_ibrahim_abd_al_sattar = {
+		name = "Ibrahim Ahmad Abd al-Sattar Muhammad"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/ibrahim_abd_al_sattar_small.dds"
+				large = "gfx/leaders/IRQ/ibrahim_abd_al_sattar.dds"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard thorough_planner }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ibrahim_abd_al_sattar
+			traits = {
+				army_chief_planning_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	IRQ_saif_al_din_al_rawi = {
+		name = "Saif al-Din Fulayyih Hassan Taha al-Rawi"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/saif_al_din_al_rawi_small.dds"
+				large = "gfx/leaders/IRQ/saif_al_din_al_rawi.dds"
+			}
+		}
+		field_marshal = {
+			traits = { panzer_leader offensive_doctrine }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			idea_token = saif_al_din_al_rawi
+			ledger = army
+			traits = {
+				army_armored_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	IRQ_kamal_mustafa = {
+		name = "Kamal Mustafa Abdallah Sultan al-Tikriti"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/kamal_mustafa_small.dds"
+				large = "gfx/leaders/IRQ/kamal_mustafa.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader commando }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = kamal_mustafa
+			ledger = army
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	IRQ_raad_al_hamdani = {
+		name = "Raad al-Hamdani"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/raad_al_hamdani_small.dds"
+				large = "gfx/leaders/IRQ/raad_al_hamdani.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader offensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = raad_al_hamdani
+			ledger = army
+			traits = {
+				army_high_command_operational_planning_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	IRQ_muzahim_sab_hassan_al_tikriti = {
+		name = "Muzahim Sa'b Hassan al-Tikriti"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/muzahim_sab_hassan_al_tikriti_small.dds"
+				large = "gfx/leaders/IRQ/muzahim_sab_hassan_al_tikriti.dds"
+			}
+		}
+		corps_commander = {
+			traits = { cautious unyielding_defender }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = muzahim_sab_hassan_al_tikriti
+			ledger = army
+			traits = {
+				air_high_command_interception_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = muzahim_sab_hassan_al_tikriti
+			traits = {
+				air_bomber_interception_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	IRQ_khaldun_khattab_bakr_al_tikriti = {
+		name = "Khaldun Khattab Bakr al-Tikriti"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/khaldun_khattab_bakr_al_tikriti_small.dds"
+				large = "gfx/leaders/IRQ/khaldun_khattab_bakr_al_tikriti.dds"
+			}
+		}
+		corps_commander = {
+			traits = { cautious thorough_planner }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = khaldun_khattab_bakr_al_tikriti
+			ledger = army
+			traits = {
+				air_high_command_air_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = khaldun_khattab_bakr_al_tikriti
+			traits = {
+				air_air_superiority_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	IRQ_kheir_allah_wahees_omar_al_nassiri = {
+    name = "Kheir-Allah Wahees Omar al-Nassiri"
+    portraits = {
+        army = {
+            small = "gfx/leaders/IRQ/small/kheir_allah_wahees_omar_al_nassiri_small.dds"
+            large = "gfx/leaders/IRQ/kheir_allah_wahees_omar_al_nassiri.dds"
+        }
+    }
+    corps_commander = {
+        traits = { cautious commando }
+        skill = 4
+        attack_skill = 4
+        defense_skill = 4
+        planning_skill = 3
+        logistics_skill = 3
+    }
+    advisor = {
+        slot = high_command
+        idea_token = kheir_allah_wahees_omar_al_nassiri
+        ledger = army
+        traits = {
+            army_commando_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	IRQ_mizban_khadr_hadi = {
+		name = "Mizban Khadr Hadi"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/mizban_khadr_hadi_small.dds"
+				large = "gfx/leaders/IRQ/mizban_khadr_hadi.dds"
+			}
+		}
+		corps_commander = {
+			traits = { cautious thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			idea_token = mizban_khadr_hadi
+			ledger = army
+			traits = {
+				army_high_command_operational_planning_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	IRQ_salah_aboud_mahmoud = {
+		name = "Salah Aboud Mahmoud"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/salah_aboud_mahmoud_small.dds"
+				large = "gfx/leaders/IRQ/salah_aboud_mahmoud.dds"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader thorough_planner }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = salah_aboud_mahmoud
+			ledger = army
+			traits = {
+				army_high_command_operational_planning_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	IRQ_abid_mohammed_al_kabi = {
+		name = "Abid Mohammed al-Kabi"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/abid_mohammed_al_kabi_small.dds"
+				large = "gfx/leaders/IRQ/abid_mohammed_al_kabi.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = abid_mohammed_al_kabi
+			ledger = navy
+			traits = {
+				navy_chief_reform_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+
+	IRQ_abud_qanbar = {
+		name = "Abbud Qanbar"
+		portraits = {
+			army = {
+				small = "gfx/leaders/IRQ/small/abboud_qanbar_small.dds"
+				large = "gfx/leaders/IRQ/Portrait_Abud_Qanbar.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = abud_qanbar
+			ledger = navy
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 3
 		}
 	}
 }
